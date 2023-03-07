@@ -23,26 +23,26 @@
                     <div class="row mb-3">
                       <label for="income" class="fw-bold col-sm-2 col-form-label">Income</label>
                       <div class="col-sm-10">
-                        <input type="text" class="form-control" id="income">
+                        <input type="text" class="form-control" id="income" value="10000 ">
                       </div>
                     </div>
                     <h5 class="fw-bolder">Expenses</h5>
                     <div class="row mb-3">
                       <label for="food" class="fw-bold col-sm-2 col-form-label">Food</label>
                       <div class="col-sm-10">
-                        <input type="text" class="form-control" id="food">
+                        <input type="text" class="form-control" id="food" value="1000">
                       </div>
                     </div>
                     <div class="row mb-3">
                       <label for="rent" class="fw-bold col-sm-2 col-form-label">Rent</label>
                       <div class="col-sm-10">
-                        <input type="text" class="form-control" id="rent">
+                        <input type="text" class="form-control" id="rent" value="1000">
                       </div>
                     </div>
                     <div class="row mb-3">
                       <label for="clothes" class="fw-bold col-sm-2 col-form-label">Clothes</label>
                       <div class="col-sm-10">
-                        <input type="text" class="form-control" id="clothes">
+                        <input type="text" class="form-control" id="clothes" value="1000">
                       </div>
                     </div>
                     <button id="calculate-btn" class="btn btn-lg btn-primary fw-bold" onclick="calculateExpense()">Calculate</button>
@@ -54,7 +54,7 @@
                     <div class="row mb-3">
                         <label for="save" class="fw-bold col-sm-2 col-form-label">Save</label>
                         <div class="col-sm-5">
-                          <input type="text" class="form-control" id="save">
+                          <input type="text" class="form-control" id="save" value="50">
                         </div>
                         <div class="col-sm-5 d-flex justify-content-around">
                             <h4 class=" fw-bolder me-3">%</h4>
@@ -63,7 +63,7 @@
                       </div>
                       <div class="my-2">
                         <h5 class="my-3 fw-bold ">Saving Amount: <span id="saving-amount"></span></h5>
-                        <h5 class="my-3 fw-bold ">Remaining Balance: <span class="remaining-balance"></span></h5>
+                        <h5 class="my-3 fw-bold ">Remaining Balance: <span id="remaining-balance"></span></h5>
                     </div>
                 </div>
             </div>
